@@ -27,7 +27,7 @@
               <a href="../templates/southMacedonia.html">South Macedonia</a>
             </li>
             <li>
-              <a href="../templates/westMacedonia.html">West Macedonia</a>
+              <a href="../templates/westMacedonia.html">Ohrid</a>
             </li>
             <li><a href="../templates/turkey.html">Turkey</a></li>
             <li><a href="../templates/registration.html">Let's Travel</a></li>
@@ -178,26 +178,25 @@
                 style="border: lightseagreen solid 2px; border-radius: 5px;">
                 <label for="returning"><b>To</b></label>
               </td>
-            </tr>
-            <tr>
+               <tr>
               <td>
-                <p style="width: 250px"><b>Are you an existing customer?</b></p>
-                <label for="existingCustomer"><b>Yes</b></label>
+                <p><b>Your Budget</b></p>
+              </td>
+              <td colspan="2">
                 <input
-                  type="radio"
-                  name="existingCustomer"
-                  id="existingCustomer"
-                  value="Yes"
-                  checked
-                />
-                <label for="existingCustomer"><b>No</b></label>
-                <input
-                  type="radio"
-                  name="existingCustomer"
-                  id="nonExistingCustomer"
-                  value="No"
+                  type="number"
+                  name="budget"
+                  id="budget"
+                  style="
+                    width: 90%;
+                    border: lightseagreen solid 2px;
+                    border-radius: 5px;
+                  "
+                  placeholder="Enter / Choose your budget"
                 />
               </td>
+            </tr>
+            </tr>
            <tr>
               <td>
                 <p><b>Let us know about your specific requirements</b></p>
@@ -216,6 +215,27 @@
                 />
               </td>
             </tr>
+            <tr>
+              <td>
+                <p style="width: 250px"><b>Are you already our customer?</b></p>
+                <label for="existingCustomer"><b>Yes</b></label>
+                <input
+                  type="radio"
+                  name="existingCustomer"
+                  id="existingCustomer"
+                  value="Yes"
+                  checked
+                />
+                <label for="existingCustomer"><b>No</b></label>
+                <input
+                  type="radio"
+                  name="existingCustomer"
+                  id="nonExistingCustomer"
+                  value="No"
+                />
+              </td>
+              </tr>
+            <tr>
               <td colspan="3">
                 <input
                   type="submit"
