@@ -1,9 +1,7 @@
 .flexContainer {
     display: flex;
-    /* box-sizing: border-box; */
     width: 1200px;
     height: 900px;
-    /* border: 10px solid black; */
     margin: auto;
     margin-top: 100px;
     flex-direction: column;
@@ -23,14 +21,12 @@
     flex-direction: column;
     width: 400px;
     height: 600px;
-    /* border: 10px solid black; */
 }
 
 .topElement {
     width: 400px;
     height: 300px;
     border: 10px solid black;
-    /* flex-shrink: 1; */
     background-color: beige;
 }
 
@@ -38,12 +34,10 @@
     width: 400px;
     height: 300px;
     border: 10px solid black;
-    /* flex-grow: 1; */
     background-color: beige;
 }
 
 .topRowRightColumn {
-    /* display: flex; */
     box-sizing: border-box;
     width: 800px;
     height: 600px;

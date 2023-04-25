@@ -35,7 +35,7 @@ body {
 .pictures {
     width: 400px;
     height: 400px;
-    margin: 8% 2%;
+    margin: 3% 2%;
     border-radius: 4%;
     padding: 1%; 
     border: 5px dotted green;
@@ -80,7 +80,7 @@ body {
    granicata go zaobikoluva objektot bez da samata bide zafatena od bojata na pozadinata. 
    Za prikazuvanje na svojstvata koi gi ima Content Box modelot mozeme isto taka da gi kombinirame ovie dve klasi vo edna klasa so toa sto
    granicata ke bide vo sklop na elementot no matematicki gledano celokupnata golemina na objektot ke bide zbir na vrednostite od content-box, padding i border. 
-   Ovaa klasa moze da ja pogledneme vednas po zavrsuvanjeto na ovie dve klasi (.boxTwo i .paddingBox ). 
+   Ovaa klasa moze da ja pogledneme vednas po zavrsuvanjeto na slednite dve klasi (.boxTwo i .paddingBox ). 
      */
 .boxTwo {
     width: 240px;
@@ -130,7 +130,6 @@ body {
     background-color: green;
     font-size: xx-large;
     font-weight: bolder;
-    /* margin: 3%; */
 }
 
 
